@@ -4,7 +4,9 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: print name
+      - name: print firstname
         run: echo "Lhamu"
       - name: final Message
         run: echo "Last Message"
+      - name: print lastname
+        run: echo "Sherpa"
